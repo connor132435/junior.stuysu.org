@@ -46,12 +46,14 @@ export default function AllInitiatives(props) {
                 ? initiative.Text
                 : initiative.Text.substring(0, 100)}
             </p>
-            <button
-              className="show-more"
-              onClick={() => handleShowMoreToggle(index)}
-            >
-              {showMore[index] ? "Show Less" : "Show More..."}
-            </button>
+            {showMore[index] ? (
+              <button
+                className="show-more"
+                onClick={() => handleShowMoreToggle(index)}
+              >
+                {showMore[index] ? "Show Less" : "Show More..."}
+              </button>
+            ) : null}
           </div>
         ))}
       </div>
