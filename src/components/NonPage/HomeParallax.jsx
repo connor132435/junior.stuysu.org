@@ -37,7 +37,7 @@ const ParallaxImages = () => {
             },
           ]}
           style={{
-            height: "80vw",
+            height: "250vh",
           }}
         >
           <ParallaxBannerLayer speed={-20}>

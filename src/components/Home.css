@@ -176,7 +176,7 @@ MISSION statement breaks at around 613 px; there should be some dyanmic stuff ha
 
 .polaroids {
   width: 100vw;
-  height: 300vh;
+  height: 250vh;
   grid-column: 1;
   grid-row: 1;
 }
@@ -208,7 +208,7 @@ MISSION statement breaks at around 613 px; there should be some dyanmic stuff ha
   display: flex;
   font-weight: 200;
   text-align: center;
-  font-size: 10rem;
+  font-size: 10vw;
   line-height: 95%;
   font-style: normal;
   justify-content: center;
